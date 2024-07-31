@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border: 2px solid #449708;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px 20px;
+  background-color: #d9dfe5;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputDiv input {
+  height: 45px;
+  background: #ebebeb;
+  padding: 0 15px;
+  width: 60%;
+  border-radius: 7px;
+  border: 2px solid #fff;
+  margin-bottom: 10px;
+}
+
+.inputDiv .textarea {
+  height: 45px;
+  background: #ebebeb;
+  padding: 10px 15px;
+  width: 60%;
+  border-radius: 7px;
+  border: 2px solid #fff;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.addItems {
+  padding-left: 20px;
+  color: #3ea539;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.itemList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  background-color: rgb(237, 244, 251);
+  padding: 0px 15px;
+  border-radius: 6px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px 20px;
+}
+
+.taskContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.taskContent h3.completed {
+  text-decoration: line-through;
+}
+
+.deleteItems {
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.showItems {
+  width: 73%;
+  margin: auto;
+}
+
+.editBtn {
+  color: green;
+  font-size: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.clearBtn button {
+  cursor: pointer;
+  width: 60%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 8px 30px;
+  border: none;
+  text-align: center;
+  background-color: #405f6c;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 2px solid thistle;
+  border-radius: 300px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.checkbox:checked {
+  background-color: thistle;
+  border: 2px solid thistle;
+}
